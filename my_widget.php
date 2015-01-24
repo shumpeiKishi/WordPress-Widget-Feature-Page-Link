@@ -105,12 +105,6 @@ class an_example_widget extends WP_Widget {
 		</p>
 
 		<p>
-
-			<?php 
-			$pages = get_pages();
-			foreach($pages as $page) {
-				echo $page->post_title;
-			} ?>
 			<label for="<?php echo $this->get_field_id('select'); ?>"><?php _e('This is a select menu'); ?></label>
 			<select name="<?php echo $this->get_field_name('select'); ?>" id="<?php echo $this->get_field_id('select'); ?>" class="widefat">
 				<?php
