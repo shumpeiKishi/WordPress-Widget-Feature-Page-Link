@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Page Link Widget
-Plugin URI: http://github.com/shumpeiKishi.
+Plugin URI: http://github.com/shumpeiKishi
 Description: Display a link to a page with its thumbnail image.
 Author: Shumpei Kishi
 Version: 1
